@@ -23,3 +23,7 @@ def callback(request):
     resp = json.loads(request.body)
     print(resp)
     return HttpResponse("OK")
+
+
+#chatsasa
+#mobilesasa
