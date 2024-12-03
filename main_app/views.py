@@ -9,7 +9,7 @@ from django_daraja.mpesa.core import MpesaClient
 # Create your views here.
 def trigger(request):
     cl = MpesaClient()
-    phone_number = '07**********'
+    phone_number = '07********'
     amount = 1
     account_reference = '001-XYZ'
     transaction_desc = 'madeni'
